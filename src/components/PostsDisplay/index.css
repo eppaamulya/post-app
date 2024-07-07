@@ -1,0 +1,88 @@
+.display-post-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.display-post-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #1e1e23;
+    margin-top: 20px;
+}
+.post-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 230, 250);
+    /* background-color: #fff; */
+    width: 700px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+@media  screen and (max-width: 700px){
+    .post-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(204, 230, 250);
+        /* background-color: #fff; */
+        width: 330px;
+        padding: 20px;
+        border-radius: 5px;
+    }
+      
+}
+.new-post-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px solid #1e1e23;
+    position: fixed;
+    top: 10vh;
+    left: 30vw;   
+}
+
+.new-post-icon {
+    font-size: 26px;
+}
+.new-post-button:hover {
+    background-color: #200132;
+    color: #fff;
+    border: none;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #5e5b5b;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    margin: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 104%;
+    left: 50%;
+    margin-left: -60px;
+
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
