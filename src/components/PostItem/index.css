@@ -48,6 +48,7 @@
     height: 35px;
     width: 35px;
     padding: 5px;
+    cursor: pointer;
     
 }
 
@@ -60,10 +61,11 @@
     
 }
 
-.delete-button {
+/* .delete-button {
     background-color: transparent;
     border: none;
-}
+} */
+
 .edit-icon {
     font-size: 20px;
 }

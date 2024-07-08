@@ -29,7 +29,7 @@ const PostsDisplay = () => {
       <h1 className='display-post-heading'>Your Posts</h1>
       <ul className='post-list'>
         {posts.length === 0 ? (
-          <div className=''>
+          <div>
           <h1 className='no-post-text'>No Posts Available</h1>
           </div>
 
